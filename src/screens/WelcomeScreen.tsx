@@ -122,7 +122,7 @@ const styles = StyleSheet.create({
   buttonText: {
     fontSize: 16,
     lineHeight: 16 * 1.4,
-    fontFamily: Fonts.POPPINS_BOLD,
+    fontWeight:'bold',
   },
   button: {
     backgroundColor: Color.LIGHT_GREEN,
@@ -144,7 +144,7 @@ const styles = StyleSheet.create({
   },
   gettingStartedButtonText:{
     fontSize:20,
-    fontFamily:Fonts.POPPINS_SEMI_BOLD,
+    fontWeight:'bold',
     color:Color.DEFAULT_WHITE,
     lineHeight:20*1.8
   }

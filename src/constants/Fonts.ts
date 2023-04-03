@@ -1,6 +1,6 @@
 export default {
-    POPPINS_BLACK: 'Poppins-Black',
-    POPPINS_BOLD: 'Poppins-Bold',
+    POPPINS_BLACK: 'poppins_black',
+    POPPINS_BOLD: 'poppins_bold',
     POPPINS_EXTRA_BOLD: 'Poppins-ExtraBold',
     POPPINS_EXTRA_LIGHT: 'Poppins-ExtraLight',
     POPPINS_LIGHT: 'Poppins-Light',

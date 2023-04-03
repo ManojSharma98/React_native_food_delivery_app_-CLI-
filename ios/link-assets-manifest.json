@@ -2,14 +2,6 @@
   "migIndex": 1,
   "data": [
     {
-      "path": "src/assets/fonts/Poppins-Black.ttf",
-      "sha1": "048555c4d0c3a6022b480be4596b1c95d605d32b"
-    },
-    {
-      "path": "src/assets/fonts/Poppins-Bold.ttf",
-      "sha1": "b9b65c039a1f10a5cb5e0726c6e7e18e98a8e517"
-    },
-    {
       "path": "src/assets/fonts/Poppins-ExtraBold.ttf",
       "sha1": "66815173c5954271fac6b3ef51076f186577ad6f"
     },
@@ -36,6 +28,14 @@
     {
       "path": "src/assets/fonts/Poppins-Thin.ttf",
       "sha1": "c5c36432a1d00d653bde8a47f4c99171f02362e8"
+    },
+    {
+      "path": "src/assets/fonts/poppins_black.ttf",
+      "sha1": "048555c4d0c3a6022b480be4596b1c95d605d32b"
+    },
+    {
+      "path": "src/assets/fonts/poppins_bold.ttf",
+      "sha1": "b9b65c039a1f10a5cb5e0726c6e7e18e98a8e517"
     }
   ]
 }

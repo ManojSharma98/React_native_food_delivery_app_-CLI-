@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
   titleText: {
     color: Color.DEFAULT_WHITE,
     fontSize: 32,
-    fontFamily: Fonts.POPPINS_BOLD,
+    fontWeight:'bold'
   },
 });
 export default SplashScreen;
