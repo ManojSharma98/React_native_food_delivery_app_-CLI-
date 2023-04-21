@@ -7,7 +7,7 @@ import {Color} from '../constants';
 import { ScrollView } from 'react-native-gesture-handler';
 import { ButtonView, ToggleButton } from '../components';
 
-const SignInScreen = () => {
+const SignInScreen = ({navigation}) => {
 
   const [isPasswordShow,setPasswordShow] = useState(true);
 
@@ -82,14 +82,18 @@ const SignInScreen = () => {
           <ToggleButton size={0.7}/>
           <Text style={{color:Color.DEFAULT_GREY,marginLeft:scale(5)}}>Remember Me </Text>
           </View>
-          <Text style={{color: Color.DEFAULT_GREEN}}>Forgot Password</Text>
+          <Text style={{color: Color.DEFAULT_GREEN}} onPress={()=>{
+            navigation.navigate('ForgotPassword')
+          }} >Forgot Password</Text>
         </View>
         <View style={{marginVertical: scale(20)}}>
           <ButtonView title="Sign In" onPress={() => {}} backgroundColor={Color.DEFAULT_GREEN} />
         </View>
-        <Text style={{alignSelf: 'center'}}>
+        <Text style={{alignSelf: 'center'}} onPress={()=>{
+           navigation.navigate('SignUp')
+        }} >
           {'Do not have an account? Signup '}
-        </Text>
+        </Text> 
         <Text style={{alignSelf: 'center',marginVertical:scale(50)}}>
           {'OR'}
         </Text>
